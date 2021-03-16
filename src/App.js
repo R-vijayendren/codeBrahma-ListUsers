@@ -95,8 +95,8 @@ const App = () => {
           moreNextBtnLabel="&gt;&gt;"
           totalItems={500} // for total number of items (default to 50 items)
           pageNumberLimit={5} // for number of pageNumbers in the page controller (default to 5 page numbers)
-          borderColor="#fff" // for custom border color of pagination (default color "#fff" which is white color)
-          labelColor="#fff" // for custom label on button color (default color "#fff" which is white color)
+          borderColor="#fff" // for custom border color of pagination (default color "#000000" which is white color)
+          labelColor="#fff" // for custom label on button color (default color "#000000" which is white color)
           itemsInputLabel="User's Per Page" // for custom label on itemsNumber input field (default label "Items Per Page")
         />
       </footer>
