@@ -1,0 +1,68 @@
+.paginationWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inputContainer .inputField {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.pageNumberContainer {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pageNumberContainer li {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.pageNumberContainer li .active {
+  background-color: white;
+  color: black;
+}
+
+.pageNumberContainer li:last-child,
+.pageNumberContainer li:first-child {
+  width: fit-content;
+}
+
+.pageNumberContainer li button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.pageNumberContainer li button:hover {
+  color: #fff;
+}
+.pageNumberContainer li button:focus {
+  outline: none;
+}
