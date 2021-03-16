@@ -1,47 +1,41 @@
-## Custom Pagination Component
+## List of User's Web Application
 
-In this project directory, we are having a sample for custom pagination component.
+List of User's Web Application with React JS
 
-```javascript
-<Pagination
-  // current/initial page number, which can be changed
-  page={currentPage}
-  // dispatcher to set the current page number
-  onPageChange={setCurrentPage}
-  // initial no.of users to be rendered per page
-  itemsPerPage={userPerPage}
-  // dispatcher to set the no.of users per page
-  setItemsPerPage={setUserPerPage}
-  // below are optional properties
+- This application will List the user's as per the value on pagination.
+- The Pagination component is a customizable and reusable anywhere.
+- There is a sample component built based on SCSS.
 
-  totalItems={500} // for total number of items (default to 50 items)
-  pageNumberLimit={10} // for number of pageNumbers in the page controller (default to 5 page numbers)
-  borderColor="#000000" // for custom border color of pagination (default color "#fff" which is white color)
-  labelColor="#000000" // for custom label on button color (default color "#fff" which is white color)
-/>
-```
+Master branch is the default branch
 
-In the above sample, the currentpage and userPerPage has to be managed in parent component. Like below,
+## Steps to clone from Repository
 
-```javascript
-const [currentPage, setCurrentPage] = useState(1); // initial page number to start.
-const [userPerPage, setUserPerPage] = useState(10); // initial number of users per page to start.
-```
+Need git CLI to clone the iSeeNowLive Web Application from the repository.
 
-In this project, there are two Pagination component of same logic but different stylesheet's. You can use appropriate component by the css usage or scss usage.
+1. Copy the https URL from the clone dropdown.
+2. Create a new folder to clone the application.
+3. Open the terminal/cmd related to the folder on your machine.
+4. Run the below command:
+   - git clone #copied https URL
+5. And hit enter to start the initiation of cloning.
+6. It will ask for the access granted user credentials.
+7. Once the credentials were entered, the application will be cloned.
+8. Now navigate to the cloned folder.
+9. Run the following command to check the current branch:
+   - git status
+10. Always check that the status return's development/master branch.
 
-## Available Scripts
+## To install the dependencies
 
-In the project directory, you can run:
+- npm install
 
-### `npm install`
+Make sure to follow a single package manager between development team.
 
-Install's the package dependencies
+## Notes on Package.json
 
-### `npm start`
+Package.json file shows the dependencies and packages used in our project.
+Make sure the versions of packages and package managers, which were installed correctly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## To run the application using NPM
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- npm start
