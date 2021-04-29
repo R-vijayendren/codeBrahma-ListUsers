@@ -10,7 +10,7 @@ Master branch is the default branch
 
 ## Steps to clone from Repository
 
-Need git CLI to clone the iSeeNowLive Web Application from the repository.
+Need git CLI to clone the project from the repository.
 
 1. Copy the https URL from the clone dropdown.
 2. Create a new folder to clone the application.
